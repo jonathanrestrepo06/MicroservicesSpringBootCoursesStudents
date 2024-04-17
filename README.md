@@ -35,3 +35,37 @@ spring:
   config:
     import: optional:configserver:http://localhost:8888
 ```
+courses
+Set PostgreSQL credentials in courses/src/main/resources/msvc-course.yml.
+
+```yaml
+Copy code
+spring:
+  application:
+    name: msvc-course
+  config:
+    import: optional:configserver:http://localhost:8888
+```
+
+Gateway Configuration
+Set gateway configuration in gateway/src/main/resources/msvc-gateway.yml.
+
+``` yaml
+Copy code
+spring:
+  application:
+    name: msvc-gateway
+  config:
+    import: optional:configserver:http://localhost:8888
+```
+Eureka Configuration
+Set Eureka configuration in eureka/src/main/resources/msvc-eureka.yml.
+
+```yaml
+Copy code
+spring:
+  application:
+    name: msvc-eureka
+  config:
+    import: optional:configserver:http://localhost:8888
+```
