@@ -5,6 +5,9 @@ This project contains a microservices architecture built with Spring Boot. The i
 
 ## Project Structure and Configuration
 
+![Esquema del proyecto](https://github.com/jonathanrestrepo06/MicroservicesSpringBootCoursesStudents/blob/main/skema.png)
+
+
 ### Services and Ports
 
 | Service       | Port | Description                          |
