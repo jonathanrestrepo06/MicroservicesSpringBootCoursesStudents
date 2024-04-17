@@ -29,7 +29,7 @@ This project contains a microservices architecture built with Spring Boot. The i
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/students_db
 spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.password=root ```
 
 courses:
 spring.datasource.url=jdbc:postgresql://localhost:5432/courses_db
