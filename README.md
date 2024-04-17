@@ -36,7 +36,7 @@ spring:
     import: optional:configserver:http://localhost:8888
 ```
 #### courses
-Set PostgreSQL credentials in courses/src/main/resources/msvc-course.yml.
+Set PostgreSQL credentials in `courses/src/main/resources/msvc-course.yml`.
 
 ```yaml
 Copy code
@@ -48,7 +48,7 @@ spring:
 ```
 
 #### Gateway Configuration
-Set gateway configuration in gateway/src/main/resources/msvc-gateway.yml.
+Set gateway configuration in `gateway/src/main/resources/msvc-gateway.yml`.
 
 ``` yaml
 Copy code
@@ -59,7 +59,7 @@ spring:
     import: optional:configserver:http://localhost:8888
 ```
 #### Eureka Configuration
-Set Eureka configuration in eureka/src/main/resources/msvc-eureka.yml.
+Set Eureka configuration in `eureka/src/main/resources/msvc-eureka.yml`.
 
 ```yaml
 Copy code
@@ -70,7 +70,7 @@ spring:
     import: optional:configserver:http://localhost:8888
 ```
 ## Configuration Files Location
-The configuration files for Eureka, Gateway, Course, and Student services can be found in SpringMicroservices\microservice-config\src\main\resources\configurations.
+The configuration files for Eureka, Gateway, Course, and Student services can be found in `microservice-config\src\main\resources\configurations`.
 
 msvc-course.yml
 msvc-eureka.yml
